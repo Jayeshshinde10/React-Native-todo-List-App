@@ -127,7 +127,7 @@ export default function App() {
       taskName:newTodoText,
       isCompleted:false,
     }
-    setTodoList([...TodoList,newtodo])
+    setTodoList([todoList,newtodo])
     setNewTodoText("")
     setIsDialogBoxOpen(false)
    }
