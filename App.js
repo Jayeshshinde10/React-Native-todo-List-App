@@ -115,7 +115,7 @@ export default function App() {
   ]);
   const [inProgress,setInProgress] = useState(false);
   const [isDone,setIsDone] = useState(false);
-  const [isDialogBoxOpen,setIsDialogBoxOpen] = useState(true)
+  const [isDialogBoxOpen,setIsDialogBoxOpen] = useState(false)
   const [newTodoText,setNewTodoText] = useState('')
    function onDialogClose (){
     setIsDialogBoxOpen(false)

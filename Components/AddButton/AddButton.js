@@ -4,7 +4,7 @@ import style from "./AddButton.Style";
     return (
         <>
         <Pressable style={style.btn} onPress={onPress}> 
-            <Text style={style.txt}>New Button</Text>
+            <Text style={style.txt}>+ New Todo</Text>
         </Pressable>
         </>
     )

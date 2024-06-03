@@ -1,4 +1,4 @@
-import { Pressable, TextInput } from 'react-native'
+import { Pressable, TextInput ,Text,View} from 'react-native'
 import style from './DialogBox.Style.js'
 export default function DialogBox({ onDialogClose, setTextChange ,onTodoADD}) {
     return (

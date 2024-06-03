@@ -9,7 +9,7 @@ container:{
 }
 ,scroll:{
     backgroundColor:"white",
-    width:"50%",
+    width:"100%",
 }
 });
 
